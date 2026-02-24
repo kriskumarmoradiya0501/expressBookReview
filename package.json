@@ -1,0 +1,19 @@
+{
+  "name": "expressbook-review-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "client": "node nodejs_tasks.js"
+  },
+  "keywords": ["express", "nodejs", "book", "review", "api"],
+  "author": "Coursera Student",
+  "license": "ISC",
+  "description": "Express.js Book Review REST API - Coursera Final Project",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
