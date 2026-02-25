@@ -6,7 +6,13 @@
     "start": "node index.js",
     "client": "node nodejs_tasks.js"
   },
-  "keywords": ["express", "nodejs", "book", "review", "api"],
+  "keywords": [
+    "express",
+    "nodejs",
+    "book",
+    "review",
+    "api"
+  ],
   "author": "Coursera Student",
   "license": "ISC",
   "description": "Express.js Book Review REST API - Coursera Final Project",
@@ -15,5 +21,8 @@
     "express": "^5.2.1",
     "express-session": "^1.19.0",
     "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.37.5"
   }
 }
